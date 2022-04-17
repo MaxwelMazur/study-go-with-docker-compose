@@ -1,0 +1,19 @@
+### Send POST request with json body
+# curl -F "name=my-item" http://127.0.0.1:3000/items
+POST http://127.0.0.1:3000/items
+Content-Type: application/json
+
+{
+  "name": "my-item"
+}
+
+### Send Get request with json body
+# curl http://127.0.0.1:3000/items
+GET http://127.0.0.1:3000/items
+Content-Type: application/json
+
+### Send Get request with json body
+# curl http://127.0.0.1:3000/
+GET http://127.0.0.1:3000/
+Content-Type: application/json
+
